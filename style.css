@@ -105,16 +105,16 @@ header {
 
 .container {
     width: 100%;
-
-    margin: 0 auto;
+    margin: auto;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 160px;
+    padding: 18px 100px;
     background-color: #e8e4d9;
+    margin: auto;
 }
 
 .logo {
@@ -125,7 +125,7 @@ header {
 .logo img {
     width: 35%;
     height: auto;
-    margin-right: 0px;
+    
 }
 
 .text-logo {
@@ -141,14 +141,15 @@ header {
     display: flex;
 }
 
-.list-nav li {}
+
 
 .list-nav a {
     text-decoration: none;
     color: #08372e;
-    font-size: 18px;
+    font-size: 16px;
     transition: color 0.3s ease;
-    padding: 31px 30px;
+    padding: 27px 30px;
+    margin: auto;
 }
 
 .list-nav a:hover {
@@ -175,7 +176,7 @@ header {
 .row {
     display: -webkit-flex;
     display: flex;
-    height: 782px;
+    height: 611px;
 }
 
 
@@ -186,10 +187,9 @@ header {
     position: relative;
     width: 300px;
     /* Adjust as needed */
-    height: 600px;
+    height: 611px;
     /* Adjust as needed */
     overflow: hidden;
-    
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -203,9 +203,7 @@ header {
     position: relative;
     width: 300px;
     height: 100%;
-
     overflow: hidden;
-   
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -236,13 +234,13 @@ header {
     flex-direction: column;
     justify-content:  space-evenly;
     align-items:flex-end;
-    margin: 48px 0px;
-    padding: 16px;
-    height: 390px;
+    margin: 16px 16px;
+  
+    height: 334px;
    
 }
 .card-icons a {
-    margin: 25px;
+    margin: 5px;
     color: #eaeaea;
     transition: opacity 0.3s ease;
     -webkit-transition: opacity 0.3s ease;
@@ -255,8 +253,8 @@ header {
 
 }
 .card-icons a img {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     margin-right: 5px;
 }
 /* Hover effect to slide the overlay up */
@@ -269,7 +267,7 @@ header {
 }
 
 .card-body{
-    padding: 32px 32px;
+    padding: 24px;
     background-color: #eaeaea;
     color:var(--primary-color);
     transition: background-color 2s ease;
@@ -289,14 +287,14 @@ header {
     font-size: 16px;
     font-weight: bold;
   
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
   
   /* Title */
   .card-title {
     font-size: 32px;
    
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     font-weight: bold
   }
   
@@ -304,7 +302,7 @@ header {
   .card-text {
     font-size: 18px;
     line-height: 1.6;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     font-weight: 500;
   }
   
@@ -315,7 +313,7 @@ header {
     color: #ffffff;
     background-color: var(--secondary-color);
     text-decoration: none;
-    padding: 28px 12px;
+    padding: 24px ;
     width: 100%;
     transition: background-color 1s ease;
     -webkit-transition: background-color 1s ease;
