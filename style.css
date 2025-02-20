@@ -1,0 +1,355 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: darkcyan;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    width: 100%;
+    background-color: #ddcda1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: #e8e4d9;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    
+
+    display: inline-block
+}
+*/
+:root {
+    --primary-color: #1ABC9C;
+    --secondary2-color: #009393;;
+    --secondary-color: #003030;
+    --quaternary-color: #e74c3c;
+    --quinary-color: #ecf0f1;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/* Contact Bar */
+.contact-bar {
+    background-color: var(--secondary-color);
+    color: #ecf0f1;
+    padding: 10px ;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-bar .contact-info {
+    margin-left: 10%;
+    padding: 5px;
+}
+
+.contact-bar .contact-info span {
+    margin-right: 20px;
+}
+
+.contact-bar .social-media {
+    margin-right: 10%;
+}
+
+.contact-bar .social-media a {
+    margin-left: 15px;
+    transition: opacity 0.3s ease;
+}
+
+.contact-bar .social-media a:hover {
+    opacity: 0.7;
+}
+
+.icon {
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+
+/* Navbar Styling */
+header {
+    background-color: #e8e4d9;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 160px;
+    background-color: #e8e4d9;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 35%;
+    height: auto;
+    margin-right: 0px;
+}
+
+.text-logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #08372e;
+    text-decoration: none;
+}
+
+/* Navigation Menu */
+.list-nav {
+    list-style: none;
+    display: flex;
+}
+
+.list-nav li {}
+
+.list-nav a {
+    text-decoration: none;
+    color: #08372e;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    padding: 31px 30px;
+}
+
+.list-nav a:hover {
+    color: var(--primary-color);
+    background-color: rgba(255, 255, 255, 0.2);
+ }
+
+
+ .list-nav .Book_Now{
+    background-color: var(--primary-color) ;
+    color: #eaeaea ;
+    text-decoration: none;
+    transition: background-color 1s ease !important;
+    -webkit-transition: background-color 1s ease !important;
+    -moz-transition: background-color 1s ease !important;
+    -ms-transition: background-color 1s ease !important;
+    -o-transition: background-color 1s ease !important;
+}
+.list-nav .Book_Now :hover{
+    background-color: var(--secondary-color) !important;
+    color: var(--primary-color) !important;
+}
+/* Hero Section */
+.row {
+    display: -webkit-flex;
+    display: flex;
+    height: 782px;
+}
+
+
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+    width: 300px;
+    /* Adjust as needed */
+    height: 600px;
+    /* Adjust as needed */
+    overflow: hidden;
+    
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Card Container */
+.card-container {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+    width: 300px;
+    height: 100%;
+
+    overflow: hidden;
+   
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Background Image */
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Card Overlay */
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.5);
+    color: #eaeaea;
+    
+    transition: transform 0.3s ease;
+    transform: translateY(100%);
+}
+
+.card-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-evenly;
+    align-items:flex-end;
+    margin: 48px 0px;
+    padding: 16px;
+    height: 390px;
+   
+}
+.card-icons a {
+    margin: 25px;
+    color: #eaeaea;
+    transition: opacity 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -ms-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+}
+.card-icons a:hover {
+    opacity: 0.7;
+
+}
+.card-icons a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+/* Hover effect to slide the overlay up */
+.card-container:hover .card-overlay {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+
+.card-body{
+    padding: 32px 32px;
+    background-color: #eaeaea;
+    color:var(--primary-color);
+    transition: background-color 2s ease;
+    -webkit-transition: background-color 2s ease;
+    -moz-transition: background-color 2s ease;
+    -ms-transition: background-color 2s ease;
+    -o-transition: background-color 2s ease;
+    
+}
+.card-body:hover{
+    background-color:  var(--primary-color);
+    color: #eaeaea;
+     
+}
+/* Category label */
+.card-category {
+    font-size: 16px;
+    font-weight: bold;
+  
+    margin-bottom: 12px;
+  }
+  
+  /* Title */
+  .card-title {
+    font-size: 32px;
+   
+    margin-bottom: 16px;
+    font-weight: bold
+  }
+  
+  /* Text */
+  .card-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    font-weight: 500;
+  }
+  
+  /* Link */
+  .card-link {
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    padding: 28px 12px;
+    width: 100%;
+    transition: background-color 1s ease;
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    -ms-transition: background-color 1s ease;
+    -o-transition: background-color 1s ease;
+}
+  
+  .card-link:hover {
+    background-color: var(--primary-color);
+  }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-bar .contact-info,
+    .contact-bar .social-media {
+        margin: 5px 0;
+    }
+
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .list-nav {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .list-nav li {
+        margin: 5px 0;
+    }
+}
