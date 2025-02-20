@@ -1,50 +1,12 @@
-/*
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: darkcyan;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-header {
-    width: 100%;
-    background-color: #ddcda1;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2%;
-    background-color: #e8e4d9;
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    list-style: none;
-    
-
-    display: inline-block
-}
-*/
 :root {
     --primary-color: #1ABC9C;
-    --secondary2-color: #009393;;
+    --secondary2-color: #009393;
+    ;
     --secondary-color: #003030;
     --quaternary-color: #e74c3c;
     --quinary-color: #ecf0f1;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -60,7 +22,7 @@ body {
 .contact-bar {
     background-color: var(--secondary-color);
     color: #ecf0f1;
-    padding: 10px ;
+    padding: 10px;
     font-size: 14px;
     display: flex;
     justify-content: space-between;
@@ -125,7 +87,7 @@ header {
 .logo img {
     width: 35%;
     height: auto;
-    
+
 }
 
 .text-logo {
@@ -155,12 +117,12 @@ header {
 .list-nav a:hover {
     color: var(--primary-color);
     background-color: rgba(255, 255, 255, 0.2);
- }
+}
 
 
- .list-nav .Book_Now{
-    background-color: var(--primary-color) ;
-    color: #eaeaea ;
+.list-nav .Book_Now {
+    background-color: var(--primary-color);
+    color: #eaeaea;
     text-decoration: none;
     transition: background-color 1s ease !important;
     -webkit-transition: background-color 1s ease !important;
@@ -168,10 +130,12 @@ header {
     -ms-transition: background-color 1s ease !important;
     -o-transition: background-color 1s ease !important;
 }
-.list-nav .Book_Now :hover{
+
+.list-nav .Book_Now :hover {
     background-color: var(--secondary-color) !important;
     color: var(--primary-color) !important;
 }
+
 /* Hero Section */
 .row {
     display: -webkit-flex;
@@ -224,7 +188,7 @@ header {
     height: 100%;
     background-color: rgba(5, 5, 5, 0.5);
     color: #eaeaea;
-    
+
     transition: transform 0.3s ease;
     transform: translateY(100%);
 }
@@ -232,13 +196,14 @@ header {
 .card-icons {
     display: flex;
     flex-direction: column;
-    justify-content:  space-evenly;
-    align-items:flex-end;
+    justify-content: space-evenly;
+    align-items: flex-end;
     margin: 16px 16px;
-  
+
     height: 334px;
-   
+
 }
+
 .card-icons a {
     margin: 5px;
     color: #eaeaea;
@@ -248,15 +213,18 @@ header {
     -ms-transition: opacity 0.3s ease;
     -o-transition: opacity 0.3s ease;
 }
+
 .card-icons a:hover {
     opacity: 0.7;
 
 }
+
 .card-icons a img {
     width: 24px;
     height: 24px;
     margin-right: 5px;
 }
+
 /* Hover effect to slide the overlay up */
 .card-container:hover .card-overlay {
     transform: translateY(0%);
@@ -266,54 +234,56 @@ header {
     -o-transform: translateY(0%);
 }
 
-.card-body{
+.card-body {
     padding: 24px;
     background-color: #eaeaea;
-    color:var(--primary-color);
+    color: var(--primary-color);
     transition: background-color 2s ease;
     -webkit-transition: background-color 2s ease;
     -moz-transition: background-color 2s ease;
     -ms-transition: background-color 2s ease;
     -o-transition: background-color 2s ease;
-    
+
 }
-.card-body:hover{
-    background-color:  var(--primary-color);
+
+.card-body:hover {
+    background-color: var(--primary-color);
     color: #eaeaea;
-     
+
 }
+
 /* Category label */
 .card-category {
     font-size: 16px;
     font-weight: bold;
-  
+
     margin-bottom: 8px;
-  }
-  
-  /* Title */
-  .card-title {
+}
+
+/* Title */
+.card-title {
     font-size: 32px;
-   
+
     margin-bottom: 8px;
     font-weight: bold
-  }
-  
-  /* Text */
-  .card-text {
+}
+
+/* Text */
+.card-text {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 8px;
     font-weight: 500;
-  }
-  
-  /* Link */
-  .card-link {
+}
+
+/* Link */
+.card-link {
     display: inline-block;
     font-size: 20px;
     color: #ffffff;
     background-color: var(--secondary-color);
     text-decoration: none;
-    padding: 24px ;
+    padding: 24px;
     width: 100%;
     transition: background-color 1s ease;
     -webkit-transition: background-color 1s ease;
@@ -321,10 +291,11 @@ header {
     -ms-transition: background-color 1s ease;
     -o-transition: background-color 1s ease;
 }
-  
-  .card-link:hover {
+
+.card-link:hover {
     background-color: var(--primary-color);
-  }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .contact-bar {
